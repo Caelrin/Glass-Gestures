@@ -18,6 +18,7 @@ public class GesturesInMotionService extends Service {
 
     private TimelineManager mTimelineManager;
     private LiveCard mLiveCard;
+    private GestureHolder mCallback;
 
     @Override
     public void onCreate() {
@@ -36,6 +37,12 @@ public class GesturesInMotionService extends Service {
             Log.e(TAG, ">>>>>>>>>>>>>>>>>>>>>>>>> Starting UP!");
             mLiveCard = mTimelineManager.createLiveCard(LIVE_CARD_TAG);
 
+            mCallback = new GestureHolder(this);
+            mLiveCard.setDirectRenderingEnabled(true).getSurfaceHolder().addCallback(mCallback);
+
+            Intent voiceIntent = new Intent(this, VoiceActivity.class);
+            voiceIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            mLiveCard.setAction(PendingIntent.getActivity(this, 0, voiceIntent, 0));
             mLiveCard.publish(LiveCard.PublishMode.REVEAL);
             Log.d(TAG, "Done publishing LiveCard");
         }
@@ -45,6 +52,9 @@ public class GesturesInMotionService extends Service {
     @Override
     public void onDestroy() {
         if (mLiveCard != null && mLiveCard.isPublished()) {
+            if (mCallback != null) {
+                mLiveCard.getSurfaceHolder().removeCallback(mCallback);
+            }
             mLiveCard.unpublish();
             mLiveCard = null;
         }
