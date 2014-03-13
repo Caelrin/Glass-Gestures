@@ -15,6 +15,7 @@ public class GesturesView extends FrameLayout {
     private static final long DELAY_MILLIS = 41;
     private final TextView mSecondsView;
     private final Handler mHandler = new Handler();
+    private String displayText = "Hello World!";
 
     public void setListener(GesturesListener mListener) {
         this.mListener = mListener;
@@ -25,8 +26,7 @@ public class GesturesView extends FrameLayout {
     private Runnable mUpdateViewRunnable= new Runnable() {
         @Override
         public void run() {
-            Log.e("Huh?", "Running");
-            mSecondsView.setText("Hello World!");
+            mSecondsView.setText(displayText);
             mListener.onTick(500);
             mHandler.postDelayed(mUpdateViewRunnable, DELAY_MILLIS);
         }
@@ -60,6 +60,10 @@ public class GesturesView extends FrameLayout {
             mStarted = true;
             mHandler.postDelayed(mUpdateViewRunnable, DELAY_MILLIS);
         }
+    }
+
+    public void setDisplayText(String text) {
+        this.displayText = text;
     }
 
     public interface GesturesListener {

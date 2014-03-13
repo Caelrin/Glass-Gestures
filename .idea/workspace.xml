@@ -17,18 +17,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a5f626-db02-416a-b6b8-a3bdaeab8e40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GestureHolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GesturesView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/VoiceActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/text_view.xml" />
-      <change type="DELETED" beforePath="E:\Projects\Glass-Gestures\src\caelrin\GlassGesturesInMotion\MyActivity.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/MainMenuActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/hello_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="DELETED" beforePath="E:\Projects\Glass-Gestures\src\caelrin\GlassGesturesInMotion\VoiceActivity.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/caelrin/GlassGesturesInMotion/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/caelrin/GlassGesturesInMotion/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GesturesInMotionService.java" afterPath="$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GesturesInMotionService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GlassGesturesInMotion.iml" afterPath="$PROJECT_DIR$/GlassGesturesInMotion.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\Projects\Glass-Gestures\src\caelrin\GlassGesturesInMotion\GestureHolder.java" afterPath="$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GestureHolder.java" />
+      <change type="MOVED" beforePath="E:\Projects\Glass-Gestures\src\caelrin\GlassGesturesInMotion\GesturesInMotionService.java" afterPath="$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GesturesInMotionService.java" />
+      <change type="MOVED" beforePath="E:\Projects\Glass-Gestures\src\caelrin\GlassGesturesInMotion\GesturesView.java" afterPath="$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GesturesView.java" />
     </list>
     <ignored path="GlassGesturesInMotion.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,107 +97,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LiveCard.class" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LiveCard.class" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://E:/Development/adt-bundle-windows-x86_64-20131030/sdk/add-ons/addon-google_gdk-google-15/libs/gdk.jar!/com/google/android/glass/timeline/LiveCard.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="79" selection-start="649" selection-end="649" vertical-scroll-proportion="0.43243244" vertical-offset="0" max-vertical-offset="629">
+            <state line="32" column="1" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VoiceActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/VoiceActivity.java">
+      <file leaf-file-name="MainMenuActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/MainMenuActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1105">
+            <state line="102" column="73" selection-start="3564" selection-end="3564" vertical-scroll-proportion="0.042718448" vertical-offset="1236" max-vertical-offset="1751">
+              <folding>
+                <element signature="e#2886#3116#0" expanded="true" />
+                <element signature="e#3105#3106#0" expanded="true" />
+                <element signature="e#3161#3385#0" expanded="true" />
+                <element signature="e#3374#3375#0" expanded="true" />
+                <element signature="e#3619#3620#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Activity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://E:/Development/adt-bundle-windows-x86_64-20131030/sdk/sources/android-15/android/app/Activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="628" column="13" selection-start="31223" selection-end="31223" vertical-scroll-proportion="0.0" vertical-offset="9192" max-vertical-offset="77418">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="text_view.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/text_view.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="hello_menu.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/menu/hello_menu.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="13" selection-start="881" selection-end="881" vertical-scroll-proportion="-6.48" vertical-offset="33" max-vertical-offset="612">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="3" selection-start="669" selection-end="669" vertical-scroll-proportion="-7.48" vertical-offset="51" max-vertical-offset="425">
+            <state line="20" column="37" selection-start="852" selection-end="852" vertical-scroll-proportion="-13.6" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GestureHolder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GestureHolder.java">
+        <entry file="file://$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GestureHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="35" selection-start="995" selection-end="1002" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1224">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="73" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-              <folding>
-                <element signature="e#430#448#0" expanded="true" />
-                <element signature="e#574#592#0" expanded="true" />
-                <element signature="e#883#901#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="12" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-20.4" vertical-offset="0" max-vertical-offset="782">
+            <state line="27" column="0" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1292">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GesturesView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GesturesView.java">
+        <entry file="file://$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GesturesView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="37" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1394">
+            <state line="65" column="32" selection-start="1832" selection-end="1832" vertical-scroll-proportion="0.0" vertical-offset="818" max-vertical-offset="1377">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#679#949#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#1798#1799#0" expanded="true" />
+                <element signature="e#1837#1838#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="GesturesInMotionService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GesturesInMotionService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="50" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="323">
+            <state line="23" column="20" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="2008" max-vertical-offset="19057">
+            <state line="107" column="10" selection-start="3573" selection-end="3573" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1921">
               <folding />
             </state>
           </provider>
@@ -216,23 +193,32 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/res/xml/voice_trigger_start.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/GlassGesturesInMotion.iml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/local.properties" />
         <option value="$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GestureHolder.java" />
-        <option value="$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GesturesView.java" />
-        <option value="$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/VoiceActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/VoiceActivity.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GesturesView.java" />
         <option value="$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GesturesInMotionService.java" />
+        <option value="$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/MainMenuActivity.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/caelrin/GlassGesturesInMotion/TestKeyListener.java" />
+        <option value="$PROJECT_DIR$/src/test/caelrin/GlassGesturesInMotion/TestGestureKeyListener.java" />
+        <option value="$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GestureKeyListener.java" />
+        <option value="$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GesturesInMotionService.java" />
+        <option value="$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GestureHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GesturesView.java" />
+        <option value="$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/MainMenuActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="x" value="1922" />
+    <option name="y" value="2" />
+    <option name="width" value="1678" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -284,6 +270,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -313,6 +301,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -366,6 +358,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GlassGesturesInMotion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Glass-Gestures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -390,15 +400,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HelloGlass" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -419,18 +427,50 @@
     <property name="DEBUGGABLE_DEVICE" value="015ECD9E02002013" />
     <property name="DEBUGGABLE_PROCESS" value="caelrin.GlassGesturesInMotion" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="caelrin.GlassGesturesInMotion" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\Glass-Gestures" />
+      <recent name="E:\Projects\Glass-Gestures\res" />
       <recent name="E:\Projects\Glass-Gestures\res\values" />
       <recent name="E:\Projects\Glass-Gestures\res\layout" />
       <recent name="C:\projects\GlassGesturesInMotion\res" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="caelrin.GlassGesturesInMotion" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\Glass-Gestures\src\main" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.GlassGesturesInMotion">
+    <configuration default="false" name="TestGestureKeyListener.listenerShouldPassMessageToViewForWhatToDisplayBasedOnInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="GlassGesturesInMotion" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="caelrin.GlassGesturesInMotion" />
+      <option name="MAIN_CLASS_NAME" value="caelrin.GlassGesturesInMotion.TestGestureKeyListener" />
+      <option name="METHOD_NAME" value="listenerShouldPassMessageToViewForWhatToDisplayBasedOnInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -582,9 +622,15 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android Application.GlassGesturesInMotion" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestGestureKeyListener.listenerShouldPassMessageToViewForWhatToDisplayBasedOnInput" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestGestureKeyListener.listenerShouldPassMessageToViewForWhatToDisplayBasedOnInput" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -623,35 +669,35 @@
     <option name="totallyTimeSpent" value="4887000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="false" />
+    <frame x="1922" y="2" width="1678" height="1008" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39963832" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39885056" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24712643" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36502346" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969475" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18070818" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32730561" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18209876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -678,11 +724,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/xml/voice_trigger_start.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="391">
+        <state line="9" column="50" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="323">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="2008" max-vertical-offset="19057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/voice_trigger_start.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="37" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="391" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
@@ -692,11 +753,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GesturesInMotionService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GesturesInMotionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0" vertical-offset="516" max-vertical-offset="1071">
-          <folding />
-        </state>
+        <state line="41" column="0" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0" vertical-offset="516" max-vertical-offset="1071" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/text_view.xml">
@@ -716,22 +775,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GestureHolder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GestureHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="35" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="663">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GesturesView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GesturesView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="40" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="663">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#679#949#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#1798#1799#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -756,11 +813,7 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="50" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding>
-            <element signature="e#430#448#0" expanded="true" />
-            <element signature="e#574#592#0" expanded="true" />
-            <element signature="e#883#901#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -776,9 +829,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/voice_trigger_start.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="391">
-          <folding />
-        </state>
+        <state line="16" column="37" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="391" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
@@ -788,11 +839,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GesturesInMotionService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GesturesInMotionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="901">
-          <folding />
-        </state>
+        <state line="37" column="0" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="901" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
@@ -815,11 +864,7 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="578">
-          <folding>
-            <element signature="e#430#448#0" expanded="true" />
-            <element signature="e#574#592#0" expanded="true" />
-            <element signature="e#883#901#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -830,9 +875,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/voice_trigger_start.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="391">
-          <folding />
-        </state>
+        <state line="16" column="37" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="391" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
@@ -842,11 +885,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GesturesInMotionService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GesturesInMotionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="408">
-          <folding />
-        </state>
+        <state line="14" column="11" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="408" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
@@ -862,11 +903,7 @@
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="578">
-          <folding>
-            <element signature="e#430#448#0" expanded="true" />
-            <element signature="e#574#592#0" expanded="true" />
-            <element signature="e#883#901#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -877,9 +914,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/voice_trigger_start.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="391">
-          <folding />
-        </state>
+        <state line="16" column="37" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="391" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
@@ -889,11 +924,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GesturesInMotionService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GesturesInMotionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="408">
-          <folding />
-        </state>
+        <state line="14" column="11" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="408" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
@@ -908,16 +941,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/voice_trigger_start.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="37" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187">
-          <folding />
-        </state>
+        <state line="16" column="37" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="391" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
@@ -932,7 +956,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="2008" max-vertical-offset="18938">
+        <state line="38" column="0" selection-start="2313" selection-end="2313" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="19890">
           <folding />
         </state>
       </provider>
@@ -949,7 +973,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="669" selection-end="669" vertical-scroll-proportion="-7.48" vertical-offset="51" max-vertical-offset="425">
+        <state line="14" column="3" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
@@ -959,67 +983,95 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="881" selection-end="881" vertical-scroll-proportion="-6.48" vertical-offset="33" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GesturesView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="37" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1394">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#679#949#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GestureHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="35" selection-start="995" selection-end="1002" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/VoiceActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1105">
+        <state line="21" column="13" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="73" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <folding>
-            <element signature="e#430#448#0" expanded="true" />
-            <element signature="e#574#592#0" expanded="true" />
-            <element signature="e#883#901#0" expanded="true" />
-          </folding>
+        <state line="15" column="47" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="697">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="12" selection-start="1281" selection-end="1281" vertical-scroll-proportion="-20.4" vertical-offset="0" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/caelrin/GlassGesturesInMotion/GesturesInMotionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="31" selection-start="1436" selection-end="1445" vertical-scroll-proportion="0.4864865" vertical-offset="340" max-vertical-offset="1071">
+        <state line="30" column="12" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://E:/Development/adt-bundle-windows-x86_64-20131030/sdk/add-ons/addon-google_gdk-google-15/libs/gdk.jar!/com/google/android/glass/timeline/LiveCard.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="79" selection-start="649" selection-end="649" vertical-scroll-proportion="0.43243244" vertical-offset="0" max-vertical-offset="629">
+        <state line="32" column="1" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/hello_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="37" selection-start="852" selection-end="852" vertical-scroll-proportion="-13.6" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Development/adt-bundle-windows-x86_64-20131030/sdk/sources/android-15/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="628" column="13" selection-start="31223" selection-end="31223" vertical-scroll-proportion="0.0" vertical-offset="9192" max-vertical-offset="77418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="10" selection-start="3573" selection-end="3573" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1921">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GesturesInMotionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="20" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GesturesView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="32" selection-start="1832" selection-end="1832" vertical-scroll-proportion="0.0" vertical-offset="818" max-vertical-offset="1377">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1798#1799#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/GestureHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/caelrin/GlassGesturesInMotion/MainMenuActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="73" selection-start="3564" selection-end="3564" vertical-scroll-proportion="0.042718448" vertical-offset="1236" max-vertical-offset="1751">
+          <folding>
+            <element signature="e#2886#3116#0" expanded="true" />
+            <element signature="e#3105#3106#0" expanded="true" />
+            <element signature="e#3161#3385#0" expanded="true" />
+            <element signature="e#3374#3375#0" expanded="true" />
+            <element signature="e#3619#3620#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1100,6 +1152,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: backport-util-concurrent:backport-util-concurrent:3.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

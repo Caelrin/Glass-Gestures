@@ -33,6 +33,10 @@ public class GestureHolder implements SurfaceHolder.Callback {
 
     }
 
+    public void setDisplayText(String text) {
+        gesturesView.setDisplayText(text);
+    }
+
     @Override
     public void surfaceCreated(SurfaceHolder holder) {
         Log.e(TAG, "Surface created");

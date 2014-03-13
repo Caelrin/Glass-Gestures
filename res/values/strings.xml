@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">GesturesInMotion</string>
     <string name="play_a_game">play a game</string>
+    <string name="stop">Stop</string>
 </resources>
