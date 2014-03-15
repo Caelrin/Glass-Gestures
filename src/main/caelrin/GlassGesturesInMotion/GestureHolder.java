@@ -1,11 +1,11 @@
 package caelrin.GlassGesturesInMotion;
 
-import android.app.Service;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.View;
+import caelrin.GlassGesturesInMotion.sensor.SensorListener;
 
 /**
  * Created by Caelrin on 1/25/14.
@@ -14,11 +14,13 @@ public class GestureHolder implements SurfaceHolder.Callback {
 
     private static final String TAG = "Gesture Holder";
     private final GesturesView gesturesView;
+    private final SensorListener sensorListener;
     private SurfaceHolder mHolder;
 
-    public GestureHolder(Context context) {
+    public GestureHolder(Context context, SensorListener sensorListener) {
+        this.sensorListener = sensorListener;
         Log.e(TAG, "Construct mebbe? Take 3");
-        gesturesView = new GesturesView(context);
+        gesturesView = new GesturesView(context, sensorListener);
         gesturesView.setListener(new GesturesView.GesturesListener() {
 
             @Override
@@ -42,6 +44,7 @@ public class GestureHolder implements SurfaceHolder.Callback {
         Log.e(TAG, "Surface created");
         mHolder = holder;
         gesturesView.start();
+        sensorListener.start();
     }
 
     @Override

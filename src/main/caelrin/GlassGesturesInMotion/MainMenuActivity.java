@@ -88,6 +88,9 @@ public class MainMenuActivity extends Activity {
         gestureDetector.setBaseListener( new GestureDetector.BaseListener() {
             @Override
             public boolean onGesture(Gesture gesture) {
+                if(gesture == Gesture.THREE_LONG_PRESS) {
+                    stop();
+                }
                 gesturesBinder.setDisplayText(gesture.name());
                 return true;
             }
@@ -111,15 +114,21 @@ public class MainMenuActivity extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.stop:
-                stopService(new Intent(this, GesturesInMotionService.class));
+                stop();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
 
+    private void stop() {
+        stopService(new Intent(this, GesturesInMotionService.class));
+    }
+
     @Override
     public void onOptionsMenuClosed(Menu menu) {
+        super.onOptionsMenuClosed(menu);
+        unbindService(mConnection);
         finish();
     }
 }

@@ -7,15 +7,22 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.widget.FrameLayout;
 import android.widget.TextView;
+import caelrin.GlassGesturesInMotion.sensor.Orientation;
+import caelrin.GlassGesturesInMotion.sensor.OrientationListener;
+import caelrin.GlassGesturesInMotion.sensor.SensorListener;
 
 /**
  * Created by Caelrin on 1/26/14.
  */
 public class GesturesView extends FrameLayout {
     private static final long DELAY_MILLIS = 41;
-    private final TextView mSecondsView;
+    private final TextView keyPressView;
+    private final TextView orientationView;
     private final Handler mHandler = new Handler();
-    private String displayText = "Hello World!";
+    private SensorListener sensorListener;
+    private String displayText = "Touch the touchpad to begin!";
+    private Orientation lastUpdatedOrientation = new Orientation();
+
 
     public void setListener(GesturesListener mListener) {
         this.mListener = mListener;
@@ -26,14 +33,27 @@ public class GesturesView extends FrameLayout {
     private Runnable mUpdateViewRunnable= new Runnable() {
         @Override
         public void run() {
-            mSecondsView.setText(displayText);
+            keyPressView.setText("Gesture Made: " + displayText);
+            orientationView.setText(lastUpdatedOrientation.toString());
             mListener.onTick(500);
             mHandler.postDelayed(mUpdateViewRunnable, DELAY_MILLIS);
         }
     };
 
+    private OrientationListener orientationListener = new OrientationListener() {
+        @Override
+        public void orientationChanged(Orientation newOrientation) {
+            lastUpdatedOrientation = newOrientation;
+        }
+    };
+
     private boolean mStarted = false;
 
+    public GesturesView(Context context, SensorListener sensorListener) {
+        this(context, null, 0);
+        this.sensorListener = sensorListener;
+        sensorListener.addListener(orientationListener);
+    }
 
     public GesturesView(Context context) {
         this(context, null, 0);
@@ -49,7 +69,8 @@ public class GesturesView extends FrameLayout {
         Log.e("Huh?", "Constructing");
         LayoutInflater.from(context).inflate(R.layout.text_view, this);
 
-        mSecondsView =  (TextView) findViewById(R.id.seconds_view);
+        keyPressView =  (TextView) findViewById(R.id.keypress);
+        orientationView =  (TextView) findViewById(R.id.orientation);
 
         mHandler.postDelayed(mUpdateViewRunnable, DELAY_MILLIS);
     }

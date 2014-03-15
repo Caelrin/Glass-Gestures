@@ -2,10 +2,13 @@ package caelrin.GlassGesturesInMotion;
 
 import android.app.PendingIntent;
 import android.app.Service;
+import android.content.Context;
 import android.content.Intent;
+import android.hardware.SensorManager;
 import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;
+import caelrin.GlassGesturesInMotion.sensor.SensorListener;
 import com.google.android.glass.timeline.LiveCard;
 import com.google.android.glass.timeline.TimelineManager;
 
@@ -22,11 +25,17 @@ public class GesturesInMotionService extends Service {
     private TimelineManager mTimelineManager;
     private LiveCard mLiveCard;
     private GestureHolder mCallback;
+    private SensorListener sensorListener;
 
     @Override
     public void onCreate() {
         super.onCreate();
         mTimelineManager = TimelineManager.from(this);
+
+        SensorManager sensorManager =
+                (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+
+        sensorListener = new SensorListener(sensorManager);
     }
 
     @Override
@@ -40,8 +49,9 @@ public class GesturesInMotionService extends Service {
             Log.e(TAG, ">>>>>>>>>>>>>>>>>>>>>>>>> Starting UP!");
             mLiveCard = mTimelineManager.createLiveCard(LIVE_CARD_TAG);
 
-            mCallback = new GestureHolder(this);
+            mCallback = new GestureHolder(this, sensorListener);
             mLiveCard.setDirectRenderingEnabled(true).getSurfaceHolder().addCallback(mCallback);
+
 
             Intent voiceIntent = new Intent(this, MainMenuActivity.class);
             voiceIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
